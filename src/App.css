@@ -7,5 +7,28 @@
   font-size: 16px;
 }
 table.table{
-  background: aliceblue;
+  background: #c8e6c9;
+}
+.page-link {
+  position: relative;
+  display: block;
+  color: #009688;
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration: none;
+  background-color: #fff;
+  border:1.5px solid #009688;
+}
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: #009688;
+  border-color: #009688;
+}
+.page-link:focus {
+  z-index: 3;
+  color: #009688;
+  background-color: #b6e4e0;
+  outline: 0;
+  box-shadow: none;
 }
